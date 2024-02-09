@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign_in{
+    height: 70vh;
+    width: 25vw;
+    border: 1px solid darkgrey;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign_up{
+    height: 10vh;
+    width: 25vw;
+    border: 1px solid darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+span{
+    color: #3870af;
+}
+img{
+    width: 15vw;
+    height: 10vh;
+}
