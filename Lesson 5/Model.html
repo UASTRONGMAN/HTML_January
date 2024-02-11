@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            font-family: 'Inter', sans-serif;
+        }
+        section{
+            height: 50vh;
+            width: 20vw;
+            border: 4px solid #554C4C;
+            background: rgba(217, 217, 217, 0.30);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h2{
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            margin: 0;
+        }
+        .circle{
+            height: 100px;
+            width: 100px;
+            background-color: #fff;: #FFF;
+            border: 4px solid #554C4C;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            height: 70px;
+            width: 70x;
+            background-size: cover;
+        }
+        .position{
+            position: absolute;
+            top: 20vh;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="position">
+            <div class="circle">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVR4nO2au2tUQRTGf4Qg+GC1MZAUbmUiKFZqsa74QEIQ1EbTCWLYVsVCEa00IGn9BwQbDYh2giaEiInxsRprtbLSwkRdEbfJyIRzYbjOzJ07u9GN3A9Ocx7fzLnnzOPeXSjQuZgF1CqTGVsiapXKH3AaOhSqSKTDoIqKBGA9UAb2AEeAU4btNvAQqAMfgZ/AMzqwIo8zdpXgXedfJ5I10SIRB4qKdBpUsf1moFjskVDF9puBR//LORJzRZkmHqrYtToMqpWKzOZ5dw5ELKdqJZFc786BiOVUrSRSAwZkUW8EdojuSXwey7E14SoJ9zbR+VAs9h5gFJgHfoi8Aa7Dsg2p0ouATzjPxTeUt20VOQl890xM206I7ybgvcf3nZFEHt7ciSQyZAy2FPCUl4xBDztitO5QC7xDIRvCjGGcE12P44mVRNL6b8BmiZ222KcyeCtANYN3ztA/JRCjjqe0QcRmuyaxNYttJIO3CuzL4I3CWwdpXcRm0wsV2U7Ttu0ZvMojCW8UzPKXpApmAnXRmW2mY5AFbWvJNK+rnSopfcIbha8RiXyR2HWWya0V20JAO1VTej2XaLyOaK2XEjtgsW0V26uI1qq3ksjViMV+WWLPWGynxXbFEVtxtJmSmGiMOEhd2++CcRpPWeyTYtM+iwHtpCw7XhRu5Si9PriOStwBj99+8TkeeCAqET2XaPiuGqYsGkkgr7s3gKbh0xSdtiU45qiMsoieSxR6czytQQeHvo78Ejno8BnMMU5vTCLDgeTj4l+WNaBvrxPAFtGPSSV8PuOBYw3HJHIzgFjfgfrEfzJl07+XaOyUU97n0ydcKkP0nHJjPoD4rOHfSNmSk3iNiM9H41zAeHpOuWGevjbRt+Uuw3/C8bQJ9NFcWX9aSG4NufDZQ6g/rvWn/MsysYZ8dUz6P49Pv3C7xv0Uk8gDD+F5Vg4XPOPeiyHcmzoHErmTaql2owu4axm3KVeYKOwG7ksrfAAuAt2sPLqBSzJmQ+aw6y+MW4B24TcermmIhb22KwAAAABJRU5ErkJggg==" alt="PS">
+            </div>
+        </div>
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </section>
+    <section>
+        <div class="position">
+            <div class="circle">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEp0lEQVR4nO2dOWtVQRTH/4kYCzEJKElEGxEhfgPRWIgLxgTFXiER1IhY5ANoFBS0UQsRTAqxMyo2iqK9Im6FcWmicYUkoGaxM2ZkYCLPw7vLLPe+uXfOHwYes9/zu3Nm5t0NYLFYLBaLxWKxWCw/1QpgCMAEAMEBOjaYULaTNnSiNgBjDAG2J+IHAC0ugEi6PCrgxAZXXACZZCBwdUKOuwAyTyptcFFpIGogtpO2tBalzKqx/RiInRhI6EB2AfjCEz+kDTp9AMIw8M82n30AwnsUaNmHgSDfk6Y0QGxVq/YZSIQYiCND8AjRFLuseLHLihC7LEeGYJelKXZZ8WKXFSF2WY4MwS5LU+yy4sUuK0LsshwZgl2WpthlxYtdVoTYZUUYwlSi4C4vqh+u+5lbg4KBMJBK8QghEjxC0oldFngOETyp8wgpjEJxWYURA/FMDMQzlRVIp7r1M6q+rwC6KvJ3qTjde3y7AXyLyS/7sNPGULrpvgL5lKJOaUiTe5gr7/GNg7EQPtoYSjfdVyBTKetdeFDTpD8tKfNO2RhKN91XIC9T1rvBsH9SG1PmfWFjKN10X4HcIOV7VPwtEr/Pwg77SdxNFd9D4odtDKWb7iuQM6T8aRV/jsQPWNjhJIk7m9C2kaGS0vMyKFVS/ZdJ/l6Sfl3FHzLsb5oyB1Xe4YjRGRSQhyT/5gg/vjVDIFsi5q8OmwMtKpCxKq8MqUyfrlgZ/TF4dC1pWfwbwAqVd5qktdkcaFGBzAFYQsrMkDwLL4jpB/BLcyMXt9GcVK4Qqo3KtBnbAy0qEAGgnZShrmMTsleHzZK3bEC6Uy59s1SvzZK3bED6SRmr5aehrNssE5BLrs9WA1ktecsG5EHC0rcWocP2QIsM5H3C0rcWoTVkIHMZ9j+34y4TEJFh/xlIRkCyFo8QMJBCuawZkr4K2Wm17d8mIcwhT0j6nYygSBh3SVuPTSrKa8iLGgE9WsMJvc+FoXTTfQfSoP7gyxvGUwCLXRhKN913IFIrATzPEcYz1aaRQgACdbYeAfAIwGwGEGZV3X2mIyM0IGnee38cyTpBygzCsUIG8pq0sS1Fme2kzIjrToUKpJFcW5e/m1KWmzMol1qhAtlB6n+lUXaElJWjxplCBTJg8e2PQVJWzivOFCqQ+xZX9uiVyHsuOxYikDoA3xPuWIlTOyn7E0C9q86FCGS9pUFtgcYqRCAHHLgc6vKkG3OiEIEMGWwIc9sg6gIpWpgHsNzBhjC3DWKZgUxUcSWmG0Kqpir1yLozB1LUD7rcBtCc8ZmdyQYxCUjS48U+hiEAi3Lw/ZlsEJOAlEXNAA4DGM3wRBhVbVj9t1V2IHUAjqm9Rl4j9Ie6dCzb1laZgdQDuFZD13nVZAdf5k+vnqohjIUgn9TVUlm+oX6RHNc6ct1ChjcAdgNYBveSde4B8LbKs4drQ/x8dxc5rgtVYDjZJyRITujvSNvndSpoVR9nFwUPaxJ24/LszUt7bfc6LeoCzbgHhhWGYSk5JvqUbRZuKkqNVe5ICV6CGCW09r2TYCB+STAQvyQYiF8SnoXgJTyAwEA8vY5T7e1CwanTEyj/vV3oL3gU+BJ7FKKHAAAAAElFTkSuQmCC" alt="Chess">
+            </div>
+        </div>
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </section>
+    <section>
+        <div class="position">
+            <div class="circle">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZ0lEQVR4nO2XQU7DMBBFH2egQYijADkCgoodF4ElhD0bbgRIbChIbDhGabpiURkF2cgYO3WaUGyYJ33J8aTRfI1n5IIgCIIgCIIg/FcK4BJ4BOaASkxzYAJUwChk4hiYJZCsitQrMPaZWCSQnOqohW2myKwSylOZj2NWJZBMX503Rp4SSKSvJiQ6nVRH1Xg2d60hsAOcAm+BuGFvgJhZt+Xj/s7W9w0PZ0vi5jv7nv0yImZ/Q0XkU3Yx0qxvrcr44qEkYhLr877qauRGr0cJGBnkaB1EHq11GSlXNbIB3P+yEdXnaDU60c9XufaIW5G7NRjx9cHKPeKOyWZiXTvxsuU5tLfsfZeYsf3FSB1RttQ1+1N3rSqBRAa5/Rb6Tq8y1RTYNM0zzvgf4qE7CY4yq8zUZwLrTnWhmyfFaVYDD7onPo/TT9H03HNLMi/ANplQBMxkZSJkJksTrpmsTRi2tARBEASBVHkHCsaYx+G8MZkAAAAASUVORK5CYII=" alt="Battle">
+            </div>
+        </div>
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </section>
+</body>
+</html>
