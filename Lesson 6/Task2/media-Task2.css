@@ -1,0 +1,25 @@
+@media screen and (min-width: 360px) and (max-width: 414px) {
+    main{
+        flex-direction: column;
+    }
+    section{
+        height: 60vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    article{
+        width: 100%;
+        height: 40vh;
+    }
+    .boxes{
+        width: 100%;
+        height: 20vh;
+    }
+    aside{
+        width: 100%;
+        height: 20vh;
+    }
+    main>section>.boxes>div{
+        width: 33.33vw;
+    }
+}

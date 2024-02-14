@@ -1,0 +1,14 @@
+@media screen and (min-width: 601px) and (max-width: 820px) {
+    .links {
+        font-size: 30px;
+        width: 70%;
+    }
+    section{
+        flex-wrap: nowrap;
+        font-size: 30px;
+    }
+    section>div{
+        height: 45vh;
+        width: 24.5vw;
+    }
+}
