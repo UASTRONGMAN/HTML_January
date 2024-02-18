@@ -29,9 +29,11 @@ header>div>img{
     width: 35px;
     position: relative;
     bottom: -6px;
+    margin: 0 5px 0 0;
 }
 header>div{
     font-size: 28px;
+    font-weight: 700;
 }
 nav{
     font-size: 18px;
@@ -51,7 +53,7 @@ a:hover{
     font-size: 20px;
     transition: 0.5s;
 }
-.contact_us{
+.button_contact_us{
     font-family: "Lato", sans-serif;
     font-size: 16px;
     border-radius: 5px;
@@ -62,7 +64,7 @@ a:hover{
     width: 150px;
     height: 40px;
 }
-.contact_us:hover{
+.button_contact_us:hover{
     border: 1px solid #ee1919;
     font-size: 18px;
 }
@@ -101,6 +103,7 @@ a:hover{
     font-size: 20px;
     border-radius: 4px;
     background: #5454D4;
+    font-weight: 700;
     color: white;
     width: 204px;
     height: 58px;
@@ -184,6 +187,7 @@ a:hover{
     font-size: 28px;
     letter-spacing: -0.75px;
     margin: 3.8vh 0 2.3vh 0;
+    font-weight: 700;
 }
 .wrap>div>p{
     font-size: 20px;
@@ -215,3 +219,95 @@ a:hover{
     align-items: center;
 }
 /*----------------------Portfolio----------------------*/
+.portfolio{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio>div{
+    width: 80vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio h2{
+    width: 45vw;
+    font-size: 58px;
+    margin: 14vh 0 16.95vh 0;
+    font-weight: 700;
+}
+.cover{
+    width: 100%;
+    height: 57.25vh;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.frame_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26vw;
+}
+.portfolio_img{
+    width: 23vw;
+    border-radius: 12px;
+}
+.frame{
+    position: absolute;
+    width: 25.5vw;
+    z-index: -1;
+}
+/*----------------------Contact us----------------------*/
+.contact_us{
+    width: 100%;
+    height: 62.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_us>div{
+    width: 80vw;
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+}
+.contact_us>div>div{
+    width: 80vw;
+    height: 49vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_us div div h2{
+    font-size: 60px;
+    width: 55vw;
+}
+footer{
+    width: 80vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+footer div{
+    font-size: 28px;
+    line-height: 140%;
+    font-weight: 700;
+}
+footer>div>img{
+    width: 40px;
+    position: relative;
+    bottom: -7.5px;
+    margin: 0 5px 0 0;
+}
+footer>div>p{
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+}
